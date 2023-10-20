@@ -12,6 +12,7 @@ public class MainClass {
         System.out.println("Enter the Number to select the option");
         System.out.println("1) Flip Coin and print percentage of Heads and Tails");
         System.out.println("2) Leap Year");
+        System.out.println("3) Even number");
 
         int option=sc.nextInt();
         switch (option){
@@ -21,6 +22,10 @@ public class MainClass {
 
             case 2:
                 program.leapYear();
+                break;
+
+            case 3:
+                program.evenOddNumber();
                 break;
 
             default:
