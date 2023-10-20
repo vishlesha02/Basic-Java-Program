@@ -15,6 +15,7 @@ public class MainClass {
         System.out.println("3) Even number");
         System.out.println("4) Vowel or Consonant");
         System.out.println("5) Find Largest among 3 numbers");
+        System.out.println("6) Swap Two Numbers");
 
         int option=sc.nextInt();
         switch (option){
@@ -37,6 +38,8 @@ public class MainClass {
             case 5:
                 program.largestAmongThreeNumbers();
                 break;
+            case 6:
+                program.swapTwoNumbers();
 
             default:
                 System.out.println("You entered wrong option");

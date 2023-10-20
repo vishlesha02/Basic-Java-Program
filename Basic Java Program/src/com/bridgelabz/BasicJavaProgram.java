@@ -106,4 +106,25 @@ public class BasicJavaProgram {
         System.out.println("Largest Number : " + largestNumber);
 
     }
+
+    public void swapTwoNumbers()
+    {
+        int temp;
+        System.out.println("Enter 1st number");
+        int a=sc.nextInt();
+
+        System.out.println("Enter 2nd number");
+        int b=sc.nextInt();
+        System.out.println("Before swap a = " + a);
+        System.out.println("Before swap b = " + b);
+
+        temp=a;
+        a=b;
+        b=temp;
+
+        System.out.println("After swap a = " + a);
+        System.out.println("After swap b = " + b);
+
+
+    }
 }
