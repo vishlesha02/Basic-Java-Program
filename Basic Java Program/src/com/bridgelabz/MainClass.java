@@ -14,6 +14,7 @@ public class MainClass {
         System.out.println("2) Leap Year");
         System.out.println("3) Even number");
         System.out.println("4) Vowel or Consonant");
+        System.out.println("5) Find Largest among 3 numbers");
 
         int option=sc.nextInt();
         switch (option){
@@ -31,6 +32,10 @@ public class MainClass {
 
             case 4:
                 program.vowelOrConsonant();
+                break;
+
+            case 5:
+                program.largestAmongThreeNumbers();
                 break;
 
             default:

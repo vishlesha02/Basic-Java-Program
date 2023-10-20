@@ -80,4 +80,30 @@ public class BasicJavaProgram {
             System.out.println(letter + " is a consonant");
         }
     }
+
+    public void largestAmongThreeNumbers()
+    {
+        System.out.println("Enter 1st number");
+        int a=sc.nextInt();
+        System.out.println("Enter 2nd number");
+        int b=sc.nextInt();
+        System.out.println("Enter 3rd number");
+        int c=sc.nextInt();
+
+        int largestNumber;
+        if(a>b && a>c)
+        {
+            largestNumber=a;
+        }
+        else if(b>c)
+        {
+            largestNumber=b;
+        }
+        else
+        {
+            largestNumber=c;
+        }
+        System.out.println("Largest Number : " + largestNumber);
+
+    }
 }
