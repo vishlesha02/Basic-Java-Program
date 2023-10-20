@@ -63,4 +63,21 @@ public class BasicJavaProgram {
                 System.out.println(num + " is odd number");
             }
     }
+
+    public void vowelOrConsonant()
+    {
+
+        char a = 0,e = 0,i = 0,o = 0,u = 0;
+
+        System.out.println("Enter the alphabet");
+        char letter = sc.next().charAt(0);
+
+        if(letter == 'a' || letter == 'e' || letter == 'i' || letter == 'o' || letter == 'u' || letter == 'A' || letter == 'E' || letter == 'I' || letter == 'O' || letter == 'U')
+        {
+            System.out.println(letter + " is a vowel");
+        }
+        else {
+            System.out.println(letter + " is a consonant");
+        }
+    }
 }

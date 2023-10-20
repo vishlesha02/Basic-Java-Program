@@ -13,6 +13,7 @@ public class MainClass {
         System.out.println("1) Flip Coin and print percentage of Heads and Tails");
         System.out.println("2) Leap Year");
         System.out.println("3) Even number");
+        System.out.println("4) Vowel or Consonant");
 
         int option=sc.nextInt();
         switch (option){
@@ -26,6 +27,10 @@ public class MainClass {
 
             case 3:
                 program.evenOddNumber();
+                break;
+
+            case 4:
+                program.vowelOrConsonant();
                 break;
 
             default:
