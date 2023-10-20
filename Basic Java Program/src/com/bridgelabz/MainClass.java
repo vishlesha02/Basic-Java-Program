@@ -11,11 +11,16 @@ public class MainClass {
 
         System.out.println("Enter the Number to select the option");
         System.out.println("1) Flip Coin and print percentage of Heads and Tails");
+        System.out.println("2) Leap Year");
 
         int option=sc.nextInt();
         switch (option){
             case 1:
                 program.flipCoin();
+                break;
+
+            case 2:
+                program.leapYear();
                 break;
 
             default:
