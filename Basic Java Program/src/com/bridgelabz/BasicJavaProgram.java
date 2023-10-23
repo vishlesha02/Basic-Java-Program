@@ -127,4 +127,20 @@ public class BasicJavaProgram {
 
 
     }
+
+    public void computeQuotientAndRemainder()
+    {
+        System.out.println("Enter the Divident");
+        int divident = sc.nextInt();
+
+        System.out.println("Enter the Divisor");
+        int divisor = sc.nextInt();
+
+        int q = divident / divisor;
+        int r = divident % divisor;
+
+        System.out.println("Quotient : " + q);
+        System.out.println("Remainder : " + r);
+
+    }
 }
