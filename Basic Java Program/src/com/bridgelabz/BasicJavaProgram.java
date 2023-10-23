@@ -162,4 +162,19 @@ public class BasicJavaProgram {
             System.out.println("Enter valid Number");
         }
     }
+
+    public void harmonicNumber()
+    {
+        double result = 0.0;
+
+        System.out.println("Enter the Number");
+        int n = sc.nextInt();
+
+        System.out.println("Harmonic of given Number is : ");
+
+            for (int i = 1; i <= n; i++) {
+                result += 1.0 / i;
+                System.out.println(result + " , ");
+            }
+    }
 }

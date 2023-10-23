@@ -18,6 +18,7 @@ public class MainClass {
         System.out.println("6) Swap Two Numbers");
         System.out.println("7) Compute Quotient and Remainder");
         System.out.println("8) Power of Two");
+        System.out.println("9) Harmonic Number");
 
         int option=sc.nextInt();
         switch (option){
@@ -49,7 +50,9 @@ public class MainClass {
             case 8:
                 program.powerOfTwo();
                 break;
-
+            case 9:
+                program.harmonicNumber();
+                break;
             default:
                 System.out.println("You entered wrong option");
                 break;
