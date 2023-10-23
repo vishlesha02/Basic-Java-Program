@@ -17,6 +17,7 @@ public class MainClass {
         System.out.println("5) Find Largest among 3 numbers");
         System.out.println("6) Swap Two Numbers");
         System.out.println("7) Compute Quotient and Remainder");
+        System.out.println("8) Power of Two");
 
         int option=sc.nextInt();
         switch (option){
@@ -44,6 +45,9 @@ public class MainClass {
                 break;
             case 7:
                 program.computeQuotientAndRemainder();
+                break;
+            case 8:
+                program.powerOfTwo();
                 break;
 
             default:

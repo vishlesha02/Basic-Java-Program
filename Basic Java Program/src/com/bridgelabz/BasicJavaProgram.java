@@ -143,4 +143,23 @@ public class BasicJavaProgram {
         System.out.println("Remainder : " + r);
 
     }
+
+    public void powerOfTwo()
+    {
+        System.out.println("Enter the Number");
+        int n = sc.nextInt();
+
+        if (n < 32)
+        {
+            for (int i = 1; i < n; i++)
+            {
+                System.out.println((int)Math.pow(2,i));
+            }
+
+        }
+        else {
+
+            System.out.println("Enter valid Number");
+        }
+    }
 }
