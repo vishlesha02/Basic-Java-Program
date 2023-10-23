@@ -177,4 +177,26 @@ public class BasicJavaProgram {
                 System.out.println(result + " , ");
             }
     }
+
+    public void primeFactorization() {
+        System.out.println("Enter the Number: ");
+        int n = sc.nextInt();
+
+        int count = 0;
+
+        System.out.println("The prime Factors of " + n + " are : ");
+
+        for (int i = 2; i * i <= n; i++) {
+            while (n % i == 0) {
+                n = n / i;
+                count++;
+                System.out.println(i);
+            }
+        }
+
+        if (n > 1) {
+            System.out.println(n);
+        }
+    }
+
 }
